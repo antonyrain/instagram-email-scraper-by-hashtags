@@ -149,7 +149,7 @@ def main():
     _______________________________________________________________________
     """
     bot = Scraper(service, options)
-    bot.login_chrome("lucky_accent", "likering22")
+    bot.login_chrome("your_login", "your_password")
     file = open("hashtags.txt", "r", encoding="utf-8")
     for word in file:
         try:
